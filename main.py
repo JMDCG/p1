@@ -6,7 +6,6 @@ a = int(input("""Please type one of theese numbers:
   """))
 
 if a == 1:
-  i = 0
   n = []
   x = int(input("""
 How many values?
