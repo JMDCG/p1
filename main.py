@@ -1,40 +1,11 @@
 a = int(input("""Please type one of theese numbers:
 
-1: Conditionals in python practice
-2: Average in python
+1: Average in python
+2: Gauss' formula
 
   """))
 
 if a == 1:
-  name = str(input("""
-Please type your name
-  """))
-  age = input("""
-Please type your age
-  """)
-  age = int(age)
-  if age >= 18:
-    print("""
-You are able to vote
-""")
-  elif age >= 15:
-    print("""
-StopAsyncIteration
-""")
-  elif age >= 1:
-    print("""
-Hasattr
-""")
-  elif age == 0:
-    print("")
-    print("Happy birthday ", name,"!")
-    print("")
-  else:
-    print("""
-tu papa
-""")
-
-elif a == 2:
   i = 0
   n = []
   x = int(input("""
@@ -50,3 +21,18 @@ How many values?
     b -= 1
   print("The average is ", str(c/len(n)))
   print(n)
+if a == 2:
+  n = int(input("""
+Count on from 1 to... """))
+  b = (n*(n+1))/2
+  d = []
+  m = n
+  while m != 0:
+    d.append(str(m))
+    m -= 1
+  d.reverse()
+  x = "+".join(d)
+  if n >= 6:
+    print("The sum of 1+2+3+...+"+str(n)+" is equal to "+str(b))
+  elif n >= 1:
+    print("The sum of", x, "is equal to "+str(int(b)))
