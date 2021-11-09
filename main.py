@@ -34,3 +34,4 @@ Count on from 1 to... """))
     print("The sum of 1+2+3+...+"+str(n)+" is equal to "+str(b))
   elif n >= 1:
     print("The sum of", x, "is equal to "+str(int(b)))
+    
