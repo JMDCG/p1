@@ -10,7 +10,6 @@ if a == 1:
   x = int(input("""
 How many values?
   """))
-  hecho = True
   for i in range(x):
     n.append(float(input("value "+str(i+1)+": ")))
   c = 0
