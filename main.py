@@ -31,6 +31,6 @@ Count on from 1 to... """))
   d.reverse()
   x = " + ".join(d)
   if n >= 6:
-    print("The sum of 1 + 2 + 3 + ... + "+str(int(n))+" is equal to "+str(b))
+    print("The sum of 1 + 2 + 3 + ... + "+str(int(n))+" is equal to "+str(int(b)))
   elif n >= 1:
     print("The sum of", x, "is equal to "+str(int(b)))
